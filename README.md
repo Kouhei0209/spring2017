@@ -1,7 +1,7 @@
- # スプリングコース
+# スプリングコース
  前納先生と遊ぼう。
  
- ## やること
+## やること
  * GitとGitHubとJavaScript
  * Node.jsとSocket.io
  * ExPressでSocket.io
