@@ -2,10 +2,10 @@ var main = document.getElementByClassName("main");
 main[0].insertAdjacentHTML('afterbegi', '<p> Learning JavaScript </p>');
 
 
-function sample() {
+(function sample() {
 
     console.log("これはjsのサンプルです");
-}();
+})();
 
 
 
