@@ -1,26 +1,17 @@
 var main = document.getElementsByClassName("main");
-main[0].insertAdjacentHTML('afterbegi', '<p> Learning JavaScript </p>');
+main[0].insertAdjacentHTML('afterbegin', '<p>Learning JavaScript</p>');
 
-
-(function sample() {
-
-    console.log("これはjsのサンプルです");
+(function () {
+    console.log("これはJavaScriptのサンプルです。")
 })();
-
-
 
 var Cat = function (name) {
     this.name = name;
-    this.run = function () {
-        console.log(this.name + "頑張って走る");
-    };
+};
+Cat.prototype.run = function () {
+    console.log(this.name + "が走る");
 };
 
-Cat.prototype.run = function () {
-
-    console.log(this.name + "頑張って走る");
-
-}
-var tama = new Cat("タマ")
+var tama = new Cat('タマ');
 tama.run();
-console.log(tama.naem);
+console.log(tama.name);
